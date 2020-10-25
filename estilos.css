@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+header
+{ 
+    background-color: crimson;
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+    
+}
+#logo
+{
+    margin-top: 0%;
+    width: 15%;
+padding: 0%;
+}
+
+
+menu
+{   background-color: rgba(153, 228, 241, 0.966);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    width: 50%; 
+    
+    
+}
+footer
+{ width:100%;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    float: none;
+    
+}
+
+form
+{color:black;
+    text-align: justify;
+    
+}
+
+
+aside
+{width: 25%;
+ padding-left: 15px;
+ margin-left: 15px;
+background-color: teal;
+ float: right;
+
+}
+
+#mapa
+{text-align: left;
+padding-left: 10%;}
+
+a:link
+{ color: white;
+}
+a:hover
+{ color: black;
+}
+
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: teal;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+ 
+  
+  
+  .header {
+    background-color: crimson;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: teal;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color:teal;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: crimson;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    background-color:white;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+ 
+@keyframes animate {
+    0%   {background-color:crimson; left:0px;}
+    50%  {background-color:teal; left:90%;}
+    100% {background-color:crimson; left:0px;}
+  }
+  
+  
+  #logo {
+    
+    position: relative;
+    background-color: crimson;
+    animation-name: animate;
+    animation-duration: 4s;
+  }
